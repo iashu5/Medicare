@@ -1,0 +1,14 @@
+.status {
+  color: #31C9A0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.status::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #31C9A0;
+  margin-top: 10px;
+}
