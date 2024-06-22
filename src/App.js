@@ -20,7 +20,7 @@ import Registration from "./scenes/patientRegistration";
 import Payments from "./scenes/payment";
 import PaymentSuccess from "./scenes/paymentSucess/PaymentSuccess";
 import Medical from "./scenes/medicalSummary/medical";
-import ForgotPassword from "./auth/forgot/forget";
+
 import AppointmentForm from "./scenes/appoinment";
 
 function App() {
@@ -105,7 +105,7 @@ function App() {
               />
               <Route path="/patientRegistration" element={<Registration />} />
               <Route path="/Test" element={<Medical />} />
-              <Route path="/forgotpassword" element={<ForgotPassword />} />
+
               <Route path="/appoinment" element={<AppointmentForm />} />
             </Routes>
           </main>
