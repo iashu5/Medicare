@@ -186,6 +186,13 @@ const Sidebar = () => {
               selected={selected}
               setSelected={setSelected}
             />
+            <Item
+              title="PersonalHealth"
+              to="/patientDashboard"
+              icon={<HowToRegIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
              <Item
               title="Payment"
               to="/payment"

@@ -20,7 +20,7 @@ import Registration from "./scenes/patientRegistration";
 import Payments from "./scenes/payment";
 import PaymentSuccess from "./scenes/paymentSucess/PaymentSuccess";
 import Medical from "./scenes/medicalSummary/medical";
-
+import PDashboard from "./scenes/patientDashboard/Pdashboard";
 import AppointmentForm from "./scenes/appoinment";
 
 function App() {
@@ -107,6 +107,7 @@ function App() {
               <Route path="/Test" element={<Medical />} />
 
               <Route path="/appoinment" element={<AppointmentForm />} />
+              <Route path="/patientDashboard" element={<PDashboard />} />
             </Routes>
           </main>
         </div>
